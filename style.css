@@ -1,0 +1,100 @@
+  .gallery {
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    float: right;
+  }
+  .navbar{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .navbar a {
+    color: tan;
+    text-decoration: none;
+  }
+  .navbar a:hover{
+    color: red;
+  }
+
+  /*sidenav*/
+  .sidenav {
+    width: 16%;
+    position: fixed;
+    z-index: 1;
+    top: 77px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 120%;
+    color: tan;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: red;
+  }
+  /*this stuff is copywritten*/
+  img{
+    pointer-events: none;
+  }
+    /*blog stuff*/
+    .blognav {
+      width: 20%;
+      position: fixed;
+      z-index: 1;
+      top: 77px;
+      left: 10px;
+      background: #eee;
+      overflow-x: hidden;
+      padding: 8px 0;
+    }
+    
+    .blognav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 100%;
+      color: blue;
+      display: block;
+    }
+    
+    .blognav a:hover {
+      color: red;
+    }
+
+    .blog {
+      width:75%;
+      height: auto;
+      padding: 2%;
+      float: right;
+    }
+
+    /*about*/
+    .about {
+      max-width: 50%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2%;
+      float: right;
+    }
+    .aboutPara {
+      font-size: 120%;
+      background-color: #eee;
+      padding: 3%;
+    }
