@@ -11,7 +11,7 @@
   padding: 0;
   text-align: center;
 }
-li {
+.navbar li {
   display: inline;
   padding: 10px;
   font-size: 220%;
