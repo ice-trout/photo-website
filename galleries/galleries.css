@@ -1,0 +1,21 @@
+.photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+img{
+    max-height: 300px;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin: auto;
+    padding: 45px;
+}
+.photo-container > div {
+
+    height: auto;
+    margin: 10px;
+
+  }
