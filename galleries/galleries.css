@@ -8,28 +8,50 @@ img{
     max-height: 20rem;
 }
 .title{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Palatino;
     font-size: xx-large;
     margin: auto;
     padding: 45px;
+    font-weight: normal;
 }
 .photo-container > div {
 
     height: auto;
-    margin: 10px;
-
+    margin: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
   }
+
+.galleryContainer > div {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
 
 .galleryList{
   padding-top: 40px;
   font-size: 1.2rem;
-  display: flex;
-  flex-wrap: wrap;
+  
 }
 .galleryList li{
   list-style-type:none;
+  height: auto;
+  margin: 10px;
+  display: inline-block;
+
 }
+
 .galleryList a{
   font-size: 1.3rem;
   padding: 1rem;
+}
+
+
+.galleryDescription{
+  font-size: 1rem;
+  margin: auto;
+  padding-left: 50px;
+  padding-bottom: 45px;
+  font-family: Palatino;
 }
